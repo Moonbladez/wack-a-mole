@@ -43,7 +43,6 @@ const peepUp = () => {
 }
 
 const startGame = () => {
-    gameWrapper.style.display = "flex";
     scoreBoard.textContent = 0;
     gameOver = false;
     score = 0;

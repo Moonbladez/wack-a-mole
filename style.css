@@ -77,16 +77,24 @@ h1 {
 }
 
 button {
-    background: #4caf50;
+    background: #212e50;
     font-family: inherit;
+    border: none;
     color: white;
     font-size: 3rem;
-    border: 1px dashed #333333;
     padding: 1.5rem 3rem;
     outline: none;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
 }
 
 button:hover,
-button:focus {
-    background: #2e7d32;
+button:focus {}
+
+button:active {
+    background: #d50000;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.disable {
+    background-color: grey;
 }
